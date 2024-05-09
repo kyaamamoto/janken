@@ -1,0 +1,197 @@
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 50px;
+}
+
+#me,
+#enemy {
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 4px #ccc;
+    margin: 100px auto;
+}
+
+button {
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    box-shadow: 10px 10px 4px #ccc;
+}
+
+button:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+#annno {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#kekka {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#judgment {
+    font-size: 200px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 5.5s ease-in-out;
+}
+
+#wanokuni {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+}
+
+#keri {
+    /* opacity: 0; */
+    padding-top: 60px;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    max-height: auto;
+    object-fit: cover;
+    display: none;
+    transition: opacity 5.5s ease-in-out;
+}
+
+#kakin {
+    opacity: 0;
+    transition: opacity 5.5s ease-in-out;
+}
+
+#kakin:hover {
+    color: white;
+}
+
+.gedan {
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+
+.saisen {
+    padding-top: 30px;
+}
+
+/* body {
+    background: #DFEFF2;
+  } */
+  .space {
+    height: 5000px;
+  }
+  
+  .pagetop {
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .3s;
+    color: white;
+    background: red;
+    box-shadow: 8px 5px 4px #ccc;
+    font-weight: bold;
+    
+  /*   デフォルトは非表示 */
+    opacity: 0;
+  }
+  .pagetop:hover {
+      box-shadow: 0 0 10px #00A6C4;
+  }
+
+  #reload {
+    background-color: black;
+    color: white;
+  }
+
+  #reload:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* a {
+    text-decoration: none;
+} */
+
+li {
+    color: white;
+}
+
+.one {
+    max-width: 100%;
+} 
+
+
+.page_heder {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    
+}
+
+.logo {
+    width: 300px;
+}
+
+.main_nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.main_nav a {
+    color: black;
+    font-weight: bold;
+}
+
+.main_nav a:hover {
+    color: darkgrey;
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 20px;
+}

@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+html {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: white;
+}
+
+.one {
+    max-width: 100%;
+} 
+
+
+#page_heder {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+
+.logo {
+    width: 300px;
+}
+
+.main_nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.main_nav a {
+    color: black;
+    text-shadow: darkgray;
+    font-weight: bold;
+}
+
+.main_nav a:hover {
+    color: darkgrey;
+}
+
+#thema,
+#asobi {
+    border-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+
+.block1,
+.block2,
+.block3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(169, 169, 169, 0.353);
+}
+
+.text {
+    display: grid;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.kid,
+.luffy,
+.low {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.asobi1,
+.asobi2,
+.asobi3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border: solid 1px ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.kaisetu1,
+.kaisetu2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container2 {
+	overflow: hidden;
+}
+
+.block4,
+.block5,
+.block6 {
+	/* 装飾に関わるスタイルは省略 */
+	margin: 50px auto;
+	transition: 1s cubic-bezier(0.75, 0, 0.25, 1);
+}
+
+.block4{
+	transform: translateX(calc(-50vw - 50%));
+}
+
+.block5{
+	transform: translateX(calc(50vw + 50%));
+}
+
+.block6{
+	transform: translateX(calc(-50vw - 50%));
+}
+
+.show{
+	transform: translateX(0);
+}
+
+
+
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.pagetop {
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .3s;
+    color: white;
+    background: red;
+    box-shadow: 8px 5px 4px #ccc;
+    font-weight: bold;
+    
+  /*   デフォルトは非表示 */
+    opacity: 0;
+  }
+  .pagetop:hover {
+      box-shadow: 0 0 10px #00A6C4;
+  }
+
+  
