@@ -11,6 +11,7 @@
 
 デプロイしている場合はURLを記入（任意）
 https://kyaamamoto.github.io/janken/index.html
+
 （レスポンシブ対応はできていません）
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
